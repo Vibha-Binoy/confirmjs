@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vibha Binoy</title>
+	<script type="text/javascript">
+		function abc()
+		{
+			var a=confirm("Do you really want to delete?");
+			if(a==true){
+				alert("Your file is deleted");
+			}
+			else{
+				alert("Your file is retained");
+			}
+		}
+		function xyz(){
+			var b=prompt("What is your name?");
+			alert("I'm "+b);
+		}
+		function hgk(){
+			open("https://vibha-binoy.github.io/Music/")
+		}
+		function test(){
+			setTimeout(function(){
+				alert("Welcome to my website after 2 seconds")},100000);
+			}
+	</script>
+</head>
+<body>
+	<span id="name"></span>
+	<input id="name"type="text" name="name">
+	<button onclick="abc()">Delete</button>
+	<button onclick="xyz();">Click Me</button>
+	<button onclick="hgk()">Go to music</button>
+	<button onclick="test()">after two seconds</button>
+	<button onclick="history.back()">previous page</button>
+	<button onclick="history.forward()">next page</button>
+
+</body>
+</html>
